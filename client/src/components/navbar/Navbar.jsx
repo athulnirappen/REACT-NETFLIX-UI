@@ -2,11 +2,22 @@ import "./navbar.scss";
 import { FaSearch } from "react-icons/fa"
 import { IoMdNotifications } from "react-icons/io";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { useState } from "react";
 
 
 const Navbar = () => {
+
+  const [isscroll, setIsscroll] = useState(false);
+
+  window.onscroll = () => {
+    setIsscroll(window.pageYOffset === 0 ? false : true)
+    return ()=> (window.onscroll=null)
+  }
+
+
   return (
-    <div className="navbar">
+    <div className={isscroll ?  "navbar scrolled": "navbar" }
+    >
       <div className="container">
         <div className="left">
           <img
