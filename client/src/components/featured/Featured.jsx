@@ -25,14 +25,14 @@ const Featured = ({ type }) => {
       )}
       <img
         className="img"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ6iF2p4Ub7e5R1XqUsOsP6twJ6zQ5QupkMQ&usqp=CAU"
+        src="https://i.pinimg.com/originals/27/7e/b1/277eb1d795931a400e9f31956d3d788b.jpg"
         alt=""
       />
       <div className="info">
-        <img
-          src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qYkEg4ZTjd0wwg0UPqZ2Q96uLgaId6d6xdSCDN64leAKSoZcQZxDlZNB2k3Pa122V6g&usqp=CAU"
+        {/* <img
+          src=""
           alt=""
-        />
+        /> */}
         <span className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor
           eleifend semper. Morbi imperdiet consectetur volutpat. In hac
@@ -56,3 +56,6 @@ const Featured = ({ type }) => {
 };
 
 export default Featured;
+// https://i.pinimg.com/originals/27/7e/b1/277eb1d795931a400e9f31956d3d788b.jpg
+
+// https://images.pexels.com/photos/3816395/pexels-photo-3816395.jpeg?auto=compress&cs=tinysrgb&w=600
