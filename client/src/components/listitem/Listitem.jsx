@@ -8,7 +8,7 @@ const Listitem = ({index}) => {
 
   const [ishovered, setIshovered] = useState(false)
   let trailer =
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4";
+    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4";
 
 
 
